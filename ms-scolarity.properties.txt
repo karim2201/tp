@@ -1,0 +1,11 @@
+server.port=6080
+spring.datasource.url=jdbc:h2:mem:configdb
+spring.h2.console.enabled=true
+spring.jpa.show-sql=true
+
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+eureka.client.service-url.defaultZone=http://localhost:8888/eureka
+
+logging.level.com.msgroups.ms_scorlari.proxy.FormationProxy=DEBUG
+spring.cloud.openfeign.client.config.default.logger-level=FULL

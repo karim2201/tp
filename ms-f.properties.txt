@@ -1,0 +1,14 @@
+spring.application.name=ms-f
+server.port=8084
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.jpa.show-sql=true
+
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+eureka.client.service-url.defaultZone=http://localhost:8888/eureka
+
+# logging.level.com.msgroups.ms_formation.proxy.EtudiantProxy=DEBUG
+# spring.cloud.openfeign.client.config.default.logger-level=FULL
+
+mes-config.email=yac.hakkas@gmail.com
+# mes-config.compte=565352598418950048
